@@ -28,3 +28,24 @@
 
 * Incoming input data to be captured; 
 * Galleries media project.
+
+# Architecture
+
+## Mediator infra
+
+* Bring up node app listening to program settings and overrides 
+* Bring browser up and restarts 
+
+## Mediator content 
+
+* UUID session per client - basic programming for each client is uniqueID based, therefore it's a static continous session
+* Program basic 
+* Program patch 
+  uuid-based JS chunks updating slots segments 
+* Need to be very clear HOW JS apply to specific iframe structure 
+* Program active 
+
+
+
+
+
