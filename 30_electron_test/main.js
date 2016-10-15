@@ -4,8 +4,8 @@ let mainWindow;
 
 app.on('ready', () => {
   mainWindow = new BrowserWindow({
-      height: 1080,
-      width: 3840, frame: false
+      height: 600,
+      width: 800
   });
 
   mainWindow.loadURL('http://localhost:8888/static/10_wrappers/wide.html');
