@@ -1,5 +1,7 @@
 # l8e (Latinoware statement) 
 
+* Go through all the 00_install scripts in each directory
+
 ## Web content infrastructure
 
 * Grid support for Lapsi/ICS
