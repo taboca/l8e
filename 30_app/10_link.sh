@@ -1,1 +1,1 @@
-ln -s ../25_mediator/TelaSocial-mediator/app ./FPTI-latinoware
+ln -s ./FPTI-latinoware ../25_mediator/TelaSocial-mediator/app 
