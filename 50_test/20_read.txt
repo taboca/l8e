@@ -1,0 +1,1 @@
+Check reboot and if init process works by looking /root/.forever logs
