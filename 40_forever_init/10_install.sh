@@ -1,4 +1,3 @@
-# this installs for reboot 
-sudo update-rc.d latinoware defaults
-sudo update-rc.d latinoware enable
+update-rc.d latinoware defaults
+update-rc.d latinoware enable
 
