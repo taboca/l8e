@@ -1,53 +1,33 @@
-# l8e (Latinoware statement) 
+# Installer script for new Web TV project Latinoware2016
 
-* Go through all the 00_install scripts in each directory
+* Go through all the 00_install scripts in each directory.
+* [See 0.1 notes](https://github.com/taboca/l8e/wiki) on the purpose of the scripts. 
 
-## Web content infrastructure
+# Licensing
 
-* Grid support for Lapsi/ICS
-* Slides/Animation Support
-* Nonlinear component architecture
+This project is mostly comprised of scripts that can install other projects. All these shell scripts here are licensed under MIT license. Beware these are just shell scripts. Other projects are being invoked here and they display their own licenses. Aside from other 3rd-party software, our specific sub-projects used here are:
 
-## Platform & Architecture
+* [Tela Social Electron Browser Signage](https://github.com/taboca/browser-signage-runtime-watcher) MIT and MPL 1.1/GPL 2.0/LGPL 2.1 for all the legacy code;
 
-* Node.js intentisification
-* Removal of XULRunner, use of Positron/Electron architecture
-* Monitoring daemon support
-* Platform extensions: second screen archictecture review
+* [Tela Social Mediator](https://github.com/taboca/TelaSocial-mediator) MPL 1.1/GPL 2.0/LGPL 2.1;
 
-## Channels
+* [FPTI-Latinoware web app](https://github.com/taboca/FPTI-latinoware) MIT and MPL 1.1/GPL 2.0/LGPL 2.1 for all the legacy code;
 
-* Telegram Bot, for talks and discussion 
-* Telegram Bot, Experimental, for Content Pushing 
+## License for .sh scripts
 
-## Views 
+```
+The MIT License (MIT)
+Copyright (c) 2016 Marcio S Galli
 
-* Terminator A+B — this is a 2160x1080 screen, comprised of a Nuc mini PC with double HDMI FULL HD graphics, connected with two Full HD TVs.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-* Terminal C, 1920x1080, to be used from the web, anyone, and also at projector screens, plus possibly at a central location (plus).
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## Results project
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-* Incoming input data to be captured; 
-* Galleries media project.
+```
 
-# Architecture
+## Third-party vendor
 
-## Mediator infra
-
-* Bring up node app listening to program settings and overrides 
-* Bring browser up and restarts 
-
-## Mediator content 
-
-* UUID session per client - basic programming for each client is uniqueID based, therefore it's a static continous session
-* Program basic 
-* Program patch 
-  uuid-based JS chunks updating slots segments 
-* Need to be very clear HOW JS apply to specific iframe structure 
-* Program active 
-
-
-
-
-
+* All 3rd-party vendor code may have its own license;
+* Names, such as Latinoware, TelaSocial, RemoteStage, and others, are trademarks of their respective owners;
